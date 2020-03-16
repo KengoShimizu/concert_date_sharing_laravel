@@ -7,10 +7,10 @@ import { theme_ } from './common_theme';
 import { ThemeProvider } from '@material-ui/core/styles';
 
 ReactDOM.render(
-  <ThemeProvider theme={theme_}>
-    <BrowserRouter>
+  <BrowserRouter>
+    <ThemeProvider theme={theme_}>
       <Main />
-    </BrowserRouter>
-    <Footer />
-  </ThemeProvider>
+      <Footer />
+    </ThemeProvider>
+  </BrowserRouter>
 , document.getElementById('root'));

@@ -64,7 +64,10 @@
         </style>
     </head>
     <body>
-        <div id="root"></div>
-        <script src="{{mix('js/app.js')}}" ></script>
+        <div id="root">
+            {!! ssr('js/server.js')
+            ->render() !!}
+        </div>
+        <script src="{{mix('js/client.js')}}" ></script>
     </body>
 </html>
