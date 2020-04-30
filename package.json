@@ -22,7 +22,7 @@
         "bootstrap": "^4.0.0",
         "cross-env": "^7.0",
         "date-fns": "^2.0.0-beta.5",
-        "jquery": "^3.2",
+        "jquery": "^3.5",
         "laravel-mix": "^5.0.1",
         "lodash": "^4.17.13",
         "material-ui-pickers": "^2.2.4",
