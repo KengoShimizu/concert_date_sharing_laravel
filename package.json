@@ -24,7 +24,7 @@
         "date-fns": "^2.0.0-beta.5",
         "jquery": "^3.2",
         "laravel-mix": "^5.0.1",
-        "lodash": "^4.17.13",
+        "lodash": "^4.17.21",
         "material-ui-pickers": "^2.2.4",
         "popper.js": "^1.12",
         "react": "^16.2.0",
